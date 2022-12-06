@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = yosuke-furukawa
+	email = yosuke.furukawa@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Yosuke Furukawa
+#	email = yosuke.furukawa@gmail.com
+[ghq]
+	root = ~/go/src
+#[url "https://dd11bbcf3952021bc6e5fa4704004bfc41ac07e1:x-oauth-basic@github.com/"]
+#	insteadOf = https://github.com/

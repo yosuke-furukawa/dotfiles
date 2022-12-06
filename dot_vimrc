@@ -1,0 +1,22 @@
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
+set expandtab
+set hlsearch
+set ignorecase
+set shiftwidth=0
+set splitbelow
+set tabstop=4
+set termwinsize=15x0
+set clipboard+=unnamed,autoselect
+
+set backspace=indent,eol,start
+
+nmap <Esc><Esc> :nohlsearch<Enter>
+
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_liststyle=3
+let g:netrw_preview=1
+let g:netrw_winsize=75
+
